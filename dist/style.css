@@ -1,1 +1,37 @@
-body { background-color:#Fee5F5}
+body {
+    background: linear-gradient(135deg, #ffb6d9, #ffcce6);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 8px #ff69b4;
+}
+
+.icon {
+    width: 350px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
